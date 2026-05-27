@@ -784,27 +784,26 @@ ul.social li a {
     align-items: center !important;
     justify-content: flex-end !important;
     flex-wrap: nowrap !important;
-    gap: 10px;
 }
 
 .site-header .main-menu {
     flex: 1;
 }
 
+.site-header .main-menu ul {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 #userInfo {
     color: #fff !important;
-    display: inline-block !important;
     margin: 0 10px !important;
     white-space: nowrap;
-    line-height: 90px;
+    flex-shrink: 0;
 }
 
 #authArea {
-    display: inline-block !important;
-    line-height: 90px;
-}
-
-#authArea button {
-    display: inline-block !important;
-    visibility: visible !important;
+    flex-shrink: 0;
 }
