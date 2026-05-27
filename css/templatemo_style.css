@@ -780,19 +780,31 @@ ul.social li a {
   }
 }
 .site-header .col-md-8 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    flex-wrap: nowrap !important;
+    gap: 10px;
+}
+
+.site-header .main-menu {
+    flex: 1;
 }
 
 #userInfo {
-    color: #fff;
-    margin-right: 10px;
-    margin-bottom: 0;
+    color: #fff !important;
+    display: inline-block !important;
+    margin: 0 10px !important;
     white-space: nowrap;
+    line-height: 90px;
 }
 
 #authArea {
-    white-space: nowrap;
+    display: inline-block !important;
+    line-height: 90px;
+}
+
+#authArea button {
+    display: inline-block !important;
+    visibility: visible !important;
 }
