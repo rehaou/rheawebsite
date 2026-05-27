@@ -779,3 +779,20 @@ ul.social li a {
     filter: alpha(opacity=0);
   }
 }
+.site-header .col-md-8 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#userInfo {
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+#authArea {
+    white-space: nowrap;
+}
