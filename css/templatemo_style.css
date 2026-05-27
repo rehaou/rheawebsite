@@ -780,21 +780,27 @@ ul.social li a {
   }
 }
 .site-header .col-md-8 {
+    height: 102px;
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
-    flex-wrap: nowrap !important;
 }
 
 .site-header .main-menu {
     flex: 1;
+    height: 102px;
 }
 
 .site-header .main-menu ul {
+    position: relative !important;
+    height: 102px;
     display: flex !important;
     align-items: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    justify-content: flex-end;
+}
+
+.site-header .main-menu ul li {
+    line-height: 102px !important;
 }
 
 #userInfo {
@@ -802,11 +808,12 @@ ul.social li a {
     margin: 0 10px !important;
     white-space: nowrap;
     flex-shrink: 0;
-    margin-top: 25px !important;
+    line-height: 102px;
 }
 
 #authArea {
     flex-shrink: 0;
-    margin-top: 25px;
+    line-height: 102px;
+    margin-right: 10px;
 }
-}
+
