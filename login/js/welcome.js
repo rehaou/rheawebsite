@@ -17,6 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("authArea").innerHTML = `
             <button onclick="logout()" class="nav-cta">Logout</button>
         `;
+    } else {
+        document.getElementById("userInfo").innerText = "Belum login";
+        document.getElementById("authArea").innerHTML = `
+            <button onclick="goLogin()" style="padding:6px 14px; cursor:pointer;">LOGIN</button>
+        `;
     }
 
     window.goLogin = goLogin;
