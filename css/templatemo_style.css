@@ -314,7 +314,7 @@ h6 {
   height: 102px;
   width: 100%;
   z-index: 9999;
-  background-color: #ec4899;
+  background-color: #f472b6;
 }
 
 #templatemo_logo {
@@ -784,6 +784,7 @@ ul.social li a {
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
+	background-color: #f472b6
 }
 
 .site-header .main-menu {
