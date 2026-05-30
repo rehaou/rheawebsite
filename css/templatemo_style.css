@@ -784,7 +784,7 @@ ul.social li a {
     display: flex !important;
     align-items: center !important;
     justify-content: flex-end !important;
-	background-color: #f472b6
+	background-color: #f472b6 !important;
 }
 
 .site-header .main-menu {
