@@ -821,3 +821,7 @@ ul.social li a {
     height: 250px;
     object-fit: cover;
 }
+#templatemo_logo {
+    background-size: 60px 60px !important;
+    background-position: 15px center !important;
+}
