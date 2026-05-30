@@ -314,7 +314,7 @@ h6 {
   height: 102px;
   width: 100%;
   z-index: 9999;
-  background-color: #161616;
+  background-color: #ec4899;
 }
 
 #templatemo_logo {
@@ -822,6 +822,6 @@ ul.social li a {
     object-fit: cover;
 }
 #templatemo_logo {
-    background-size: 90px 90px !important;
+    background-size: 120px 120px !important;
     background-position: 15px center !important;
 }
